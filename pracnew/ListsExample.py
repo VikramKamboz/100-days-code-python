@@ -14,3 +14,13 @@ lsttt = [i*i for i in range(10)]
 print(lsttt)
 lst = [i*i for i in range(10) if i%2==0]
 print(lst)
+
+marks.insert(3,67)
+print(marks)
+newmarks = [1000,1111,2222]
+k = marks + newmarks
+print(k)
+
+marks.extend(newmarks)
+
+print(marks)
