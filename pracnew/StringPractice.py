@@ -46,4 +46,27 @@ str1 = "welcome0"
 print(str1.isalnum())
 print(b.isalpha())
 
+# ======================
 
+# String formatting
+
+letter = "hey my name is {} and i am from {}"
+name = "Vikram"
+country = "India"
+# old approach
+print(letter.format(name,country))
+# new approach with string formatting
+print(f"hey my name is {name} and I am from {country}")
+
+price = 14.0148448
+txt = f"for only {price:.2f} dollars"
+print(txt)
+
+# doc string
+
+def square(n):
+    '''takes in a number n, returns the square of n '''
+    print(n**2)
+
+square(5)
+print(square.__doc__)
