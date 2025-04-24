@@ -1,0 +1,47 @@
+### Notes on the Folder: 10-Day10-Taking-User-Input
+
+#### Main.py
+- **Code to take user input**:
+  ```python
+  a = input("Enter your name: ")
+  print("My name is", a)
+
+  x = input("Enter first number: ")
+  y = input("Enter second number: ")
+  print(x + y)
+
+  print(int(x) + int(y))
+  ```
+
+  - This script demonstrates how to take user input using the `input()` function in Python.
+  - The input function returns a string, so typecasting is required when dealing with numbers.
+  - Example of taking two numbers as input and performing addition, both as strings and as integers.
+
+#### Tutorial.md
+- **Day 10 - Taking User Input in Python**:
+  - The `input()` function is used to take user input directly.
+  - **Syntax**:
+    ```python
+    variable = input()
+    ```
+  - The `input()` function returns a string, so typecasting is necessary when another datatype is required.
+  - **Typecasting Example**:
+    ```python
+    variable = int(input())
+    variable = float(input())
+    ```
+  - **Displaying a message with input function**:
+    ```python
+    a = input("Enter the name: ")
+    print(a)
+    ```
+  - **Output Example**:
+    ```
+    Enter the name: Harry
+    Harry
+    ```
+
+#### video.json
+- **Embedded Video**:
+  - URL: [YouTube Video](https://www.youtube.com/embed/WvG-R-xXouA)
+  - This JSON file contains the URL for an embedded YouTube video related to the tutorial.
