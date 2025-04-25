@@ -61,3 +61,20 @@ for i in range(12):
     if(i==10):
         continue
     print("5 x ", i +1, "= ", 5 * (i+1))
+
+
+# for loop with else, else loop will only execute if for loop if full executed not it is break
+
+for i in [1,2,3]:
+    print(i)
+else:
+    print("sorry i not present")
+
+# if it is break it will not execute else block
+for i in [1,2,3]:
+    print(i)
+    if i==2:
+        break
+else:
+    print("sorry i not present")
+
