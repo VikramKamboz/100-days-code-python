@@ -6,4 +6,7 @@ try:
 except Exception as e:
     print(e)
 
+finally:
+    print("execute finally block")
+
 print("print remaining code")
