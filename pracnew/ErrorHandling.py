@@ -10,3 +10,11 @@ finally:
     print("execute finally block")
 
 print("print remaining code")
+
+
+# ========================
+
+a = 4
+if(a<5 or a>9):
+    raise ValueError("value should be between 5 and 9")
+
