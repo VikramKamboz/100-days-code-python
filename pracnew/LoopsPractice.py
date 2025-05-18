@@ -78,3 +78,26 @@ for i in [1,2,3]:
 else:
     print("sorry i not present")
 
+# =========================================
+# Short hand if else
+
+a = 330
+b = 3303
+print("A") if a>b else print("=") if a==b else print("B")
+
+# ===================
+# enumerates
+
+index = 0
+marks = [2,12,44,3,55,66]
+
+for i in marks:
+    print(i)
+    if index ==3:
+        print("wow")
+    index +=1
+
+for index, i in enumerate(marks):
+    print(i)
+    if index == 3:
+        print("enumerates")
